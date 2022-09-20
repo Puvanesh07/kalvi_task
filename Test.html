@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"> </script>
+    <title>Document</title>
+    
+
+</head>
+<body>
+    <div class="test">
+    <model-viewer 
+        id="shoemodel" 
+        camera-controls touch-action="pan-y" 
+        auto-rotate
+        src="https://puvanesh07.github.io/Interaktive_Files/shoeInteraktiveDraco.glb"
+        ios-src="https://puvanesh07.github.io/Interaktive_Files/Interaktiveshoe.usdz"
+        style="width: 100%; height: 400px; top: 0px; background-color: transparent" 
+        alt="A 3D model" preload ar ar-modes="quick-look scene-viewer webxr" 
+        shadow-intensity="0.97" 
+        exposure="2"  
+        interaction-prompt="auto" 
+        camera-controls autoplay="true" 
+        environmentImage="legacy" 
+        quick-look-browsers="safari chrome" 
+        camera-orbit="0deg 75deg auto" 
+        min-field-of-view="10deg"
+        max-field-of-view="100deg" 
+        min-camera-orbit="auto 0deg 80%" 
+        max-camera-orbit="auto 180deg 100%" 
+        loading="eager" auto-rotate>
+        </model-viewer>
+    </div>
+</body>
+</html>
